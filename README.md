@@ -38,16 +38,13 @@ Ollama (For running the Llama model locally)
 Setup the environment (using uv):
 
 Bash
-
 uv init
 uv add openai
 Prepare the Local LLM: Make sure Ollama is running and download the Llama 3 model:
 
 Bash
-
 ollama pull llama3
 Run the Project:
 
 Bash
-
 uv run main.py
