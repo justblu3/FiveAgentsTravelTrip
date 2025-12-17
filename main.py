@@ -5,7 +5,7 @@ from agents.activity import activity_agent
 from agents.auditor import auditor_agent
 
 def main():
-    # --- SCENARIO: A tricky low budget request ---
+    # --- SCENARIO: A tricky low budget request ----
     user_request = "I want a 2 days weekend in Timisoara. I have a low budget of 200$ total."
     print(f"📢 User Request: {user_request}")
 
