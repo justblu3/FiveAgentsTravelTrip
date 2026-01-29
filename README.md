@@ -7,7 +7,7 @@ A Python-based multi-agent system where **5 AI agents collaborate** to plan trav
 The system uses a **Hub & Spoke** architecture where a central controller manages data flow between specialized agents:
 
 1.  **Travel Manager:** Analyzes user requests to determine destination, duration, and budget.
-2.  **Hotel Broker:** Finds accommodation options fitting the plan.
+2.  **Hotel Broker:** Finds accommodation options fitting the plan;
 3.  **Restaurant Broker:** Suggests dining options.
 4.  **Activity Planner:** Recommends local attractions.
 5.  **Budget Auditor:** Reviews the total estimated cost against the user's budget and issues an APPROVED/REJECTED verdict.
